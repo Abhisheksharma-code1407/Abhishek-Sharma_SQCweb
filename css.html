@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical Department | NIT Jalandhar</title>
+
+  <!-- CSS ONLY -->
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:#f4f6f8;
+      color:#333;
+      scroll-behavior:smooth;
+    }
+    header{
+      background:#0b3c5d;
+      color:#fff;
+      padding:30px 20px;
+      text-align:center;
+    }
+    nav{
+      background:#1d2731;
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+    nav a{
+      color:#fff;
+      padding:14px 20px;
+      text-decoration:none;
+      font-weight:bold;
+      transition:background .3s,color .3s;
+    }
+    nav a:hover{
+      background:#328cc1;
+      color:#fff;
+    }
+    section{
+      padding:50px 30px;
+      max-width:1200px;
+      margin:auto;
+    }
+    h2{
+      color:#0b3c5d;
+      margin-bottom:20px;
+      border-bottom:3px solid #0b3c5d;
+      display:inline-block;
+      padding-bottom:6px;
+    }
+    p{line-height:1.7}
+    .card-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:22px;
+      margin-top:25px;
+    }
+    .card{
+      background:#fff;
+      padding:25px;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,.12);
+      transition:transform .3s, box-shadow .3s;
+    }
+    .card:hover{
+      transform:translateY(-8px);
+      box-shadow:0 10px 20px rgba(0,0,0,.2);
+    }
+    .card h3{color:#0b3c5d;margin-top:0}
+    ul{line-height:1.8}
+    footer{
+      background:#0b3c5d;
+      color:#fff;
+      text-align:center;
+      padding:25px 15px;
+      margin-top:40px;
+    }
+    /* CSS-only highlight effect */
+    .highlight{
+      background:linear-gradient(120deg,#328cc1,#0b3c5d);
+      color:#fff;
+      padding:8px 12px;
+      border-radius:6px;
+      display:inline-block;
+      margin-top:10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Technical Department</h1>
+  <p>Dr. B. R. Ambedkar National Institute of Technology, Jalandhar, Punjab (PB)</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#departments">Departments</a>
+  <a href="#projects">Projects</a>
+  <a href="#labs">Labs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    The Technical Department of Dr. B. R. Ambedkar National Institute of Technology, Jalandhar (PB)
+    is dedicated to academic excellence, innovation, research, and industry-oriented learning.
+    The department actively promotes interdisciplinary education and student-driven technical growth.
+  </p>
+</section>
+
+<section id="departments">
+  <h2>Engineering Departments</h2>
+  <div class="card-container">
+    <div class="card"><h3>Computer Science Engineering</h3></div>
+    <div class="card"><h3>Information Technology</h3></div>
+    <div class="card"><h3>Mechanical Engineering</h3></div>
+    <div class="card"><h3>Electrical Engineering</h3></div>
+    <div class="card"><h3>Electronics & VLSI Engineering</h3></div>
+    <div class="card"><h3>Civil Engineering</h3></div>
+    <div class="card"><h3>Chemical Engineering</h3></div>
+    <div class="card"><h3>Biotechnology</h3></div>
+    <div class="card"><h3>Textile Technology</h3></div>
+    <div class="card"><h3>Instrumentation & Control Engineering</h3></div>
+    <div class="card"><h3>Industrial & Production Engineering</h3></div>
+    <div class="card"><h3>Mathematics & Computing</h3></div>
+    <div class="card"><h3>Data Science & Engineering</h3></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>AI & Technical Projects</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>AI Powered Robot Dog – Chi-Chi</h3>
+      <p>
+        <strong>Chi-Chi</strong> is an AI-powered robotic dog developed by the technical club
+        <strong>Super Quant Coders (SQC)</strong>, established in <strong>2022</strong> and
+        founded by <strong>Dr. Vikramjot Singh</strong>.
+      </p>
+      <p>
+        The robot dog demonstrates real-world applications of Artificial Intelligence,
+        Machine Learning, sensors, and embedded systems through intelligent movement
+        and environment interaction.
+      </p>
+      <span class="highlight">Flagship AI Project</span>
+    </div>
+  </div>
+</section>
+
+<section id="labs">
+  <h2>Laboratories</h2>
+  <ul>
+    <li>Programming & Software Lab</li>
+    <li>AI & Robotics Lab</li>
+    <li>CAD / CAM Lab</li>
+    <li>Electrical Machines Lab</li>
+    <li>Electronics & VLSI Lab</li>
+    <li>Research & Innovation Lab</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Email:</strong> techdept@nitj.ac.in</p>
+  <p><strong>Address:</strong> Dr. B. R. Ambedkar National Institute of Technology, Jalandhar, Punjab (PB), India</p>
+</section>
+
+<footer>
+  <p>© 2026 Dr. B. R. Ambedkar National Institute of Technology, Jalandhar (PB)</p>
+  <p><strong>Website Credits:</strong> Abhishek Sharma (25109007), 1st Year Mechanical Engineering</p>
+</footer>
+
+</body>
+</html>
